@@ -6,7 +6,7 @@ This resource was created as a free target based tire slash.
 - Target based(made for qTarget out of the box)
 - Animations and weapon check
 - Standalone for the most part
-- 0.00ms on idle
+- 0.00ms usage
 
 
 ## Installation
