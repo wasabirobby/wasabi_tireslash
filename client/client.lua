@@ -32,7 +32,9 @@ RegisterNetEvent('wasabi_tireslash:slash', function()
                     local driverId = GetDriverOfVehicle(vehicle)
                     local driverServId = GetPlayerServerId(driverId)
                     if driverServId == 0 then
+                        SetEntityAsMissionEntity(vehicle, true, true)
                         SetVehicleTyreBurst(vehicle, closestTire.tireIndex, 0, 100.0)
+                        SetEntityAsNoLongerNeeded(vehicle)
                     else
                         TriggerServerEvent('wasabi_tireslash:sync', driverServId, closestTire.tireIndex)
                     end
