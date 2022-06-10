@@ -1,7 +1,9 @@
 -----------------For support, scripts, and more----------------
------------------https://discord.gg/XJFNyMy3Bv-----------------
+----------------- https://discord.gg/XJFNyMy3Bv ---------------
 ---------------------------------------------------------------
 Config = {}
+
+Config.TargetSystem = 'qtarget' -- Choices confirmed working are currently 'qtarget' and 'qb-target'
 
 Config.allowedWeapons = {
     `WEAPON_KNIFE`,
