@@ -3,6 +3,7 @@
 ---------------------------------------------------------------
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
 description 'wasabi_tireslash - A target based tire slashing script.'
 author 'wasabirobby#5110'
 version '1.0.3'
